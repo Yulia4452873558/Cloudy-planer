@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Облачко -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M31,56 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 Z M41,46 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0 Z M57,54 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0 Z M39,52 H69 A9,9 0 0,1 78,61 A9,9 0 0,1 69,70 H39 A9,9 0 0,1 30,61 A9,9 0 0,1 39,52 Z" />
+    <!-- Щёчки -->
+    <path
+        android:fillColor="#FFFFB7E0"
+        android:pathData="M41.8,62 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z M61.8,62 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z" />
+    <!-- Глазки -->
+    <path
+        android:fillColor="#FF2A2440"
+        android:pathData="M46.4,58 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 Z M58.4,58 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 Z" />
+    <!-- Улыбка -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A2440"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M50.5,62.5 Q54,65.8 57.5,62.5" />
+</vector>

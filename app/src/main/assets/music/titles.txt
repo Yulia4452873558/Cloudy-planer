@@ -1,0 +1,27 @@
+# Названия и порядок треков в приложении: файл.mp3=Название
+# Новый трек можно просто положить в эту папку — он появится в конце списка.
+blesk_novizny.mp3=Блеск новизны
+igristoe_otkrytie.mp3=Игристое открытие
+analogovyy_vostorg.mp3=Аналоговый восторг
+dymka_tayny.mp3=Дымка тайны
+tikhoe_otkrytie.mp3=Тихое открытие
+skandinavskaya_nezhnost.mp3=Скандинавская нежность
+retro_nakhodka.mp3=Ретро находка
+novaya_era.mp3=Новая эра
+knizhnye_vrata.mp3=Книжные врата
+aromatnoe_otkrytie.mp3=Ароматное открытие
+aromatnoe_predvkushenie.mp3=Ароматное предвкушение
+svezhiy_start.mp3=Свежий старт
+v_ozhidanii_svezhesti.mp3=В ожидании свежести
+pogruzhenie_v_analog.mp3=Погружение в аналог
+glubokiy_vayb.mp3=Глубокий вайб
+doroga_v_puteshestvie.mp3=Дорога в путешествие
+s_palatkoy_na_prirodu.mp3=С палаткой на природу
+medlennoe_utro.mp3=Медленное утро
+tyoplyy_vecher.mp3=Тёплый вечер
+myagkiy_fon.mp3=Мягкий фон
+velikiy_kitay.mp3=Великий Китай
+novye_otkrytiya.mp3=Новые открытия
+spokoynyy_serfing.mp3=Спокойный сёрфинг
+uyutnyy_laundzh.mp3=Уютный лаундж
+spokoynyy_fon.mp3=Спокойный фон
