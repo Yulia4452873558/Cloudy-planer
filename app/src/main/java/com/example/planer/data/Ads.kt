@@ -3,9 +3,11 @@ package com.example.planer.data
 import android.app.Activity
 import android.content.Context
 import android.content.pm.ApplicationInfo
+import android.util.Log
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
+import com.example.planer.BuildConfig
 import com.yandex.mobile.ads.common.AdError
 import com.yandex.mobile.ads.common.AdRequest
 import com.yandex.mobile.ads.common.AdRequestError
@@ -46,8 +48,8 @@ object Ads {
     private var initStarted = false
 
     private fun debug(ctx: Context) = (ctx.applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0
-    private fun interstitialId(ctx: Context) = if (debug(ctx)) DEMO_INTERSTITIAL_ID else INTERSTITIAL_ID
-    private fun nativeId(ctx: Context) = if (debug(ctx)) DEMO_NATIVE_ID else NATIVE_ID
+    private fun interstitialId(ctx: Context) = if (BuildConfig.DEBUG) DEMO_INTERSTITIAL_ID else INTERSTITIAL_ID
+    private fun nativeId(ctx: Context) = if (BuildConfig.DEBUG) DEMO_NATIVE_ID else NATIVE_ID
 
     /** Вызывается один раз при запуске (MainActivity.onCreate). */
     fun init(ctx: Context) {
