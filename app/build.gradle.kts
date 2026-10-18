@@ -36,6 +36,23 @@ android {
             }
         }
     }
+    // Две версии для разных магазинов: отличаются только рекламными блоками Яндекса.
+    // В Android Studio версия выбирается в панели Build Variants
+    // (rustoreDebug / rustoreRelease / huaweiDebug / huaweiRelease).
+    flavorDimensions += "store"
+    productFlavors {
+        create("rustore") {
+            dimension = "store"
+            buildConfigField("String", "ADS_INTERSTITIAL_ID", "\"R-M-20203104-3\"")
+            buildConfigField("String", "ADS_NATIVE_ID", "\"R-M-20203104-2\"")
+        }
+        create("huawei") {
+            dimension = "store"
+            buildConfigField("String", "ADS_INTERSTITIAL_ID", "\"R-M-20239167-1\"")
+            buildConfigField("String", "ADS_NATIVE_ID", "\"R-M-20239167-2\"")
+        }
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
