@@ -32,8 +32,9 @@ import com.yandex.mobile.ads.nativeads.NativeAdLoader
  * В релизной сборке — настоящие блоки.
  */
 object Ads {
-    private const val INTERSTITIAL_ID = "R-M-20203104-3"
-    private const val NATIVE_ID = "R-M-20203104-2"
+    /** Рекламные блоки берутся из версии сборки (rustore / huawei), см. app/build.gradle.kts. */
+    private val INTERSTITIAL_ID = BuildConfig.ADS_INTERSTITIAL_ID
+    private val NATIVE_ID = BuildConfig.ADS_NATIVE_ID
     private const val DEMO_INTERSTITIAL_ID = "demo-interstitial-yandex"
     private const val DEMO_NATIVE_ID = "demo-native-content-yandex"
 
